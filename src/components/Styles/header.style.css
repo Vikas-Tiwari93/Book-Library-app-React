@@ -1,0 +1,32 @@
+.headerRoot {
+  background: linear-gradient(
+    to right,
+    rgb(106, 106, 106),
+    rgb(81, 80, 80),
+    rgb(72, 72, 72),
+    rgb(45, 45, 45)
+  );
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  font-weight: 700;
+}
+.logo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  width: 250px;
+  border-bottom: 3px solid salmon;
+}
+.headerRoot button {
+  background-color: rgb(52, 51, 51);
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+}
+.headerRoot button:hover {
+  cursor: pointer;
+  background-color: rgb(42, 41, 41);
+}

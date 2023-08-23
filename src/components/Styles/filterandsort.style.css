@@ -1,0 +1,40 @@
+.filterRoot {
+  background-color: rgb(39, 39, 39);
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btnroot {
+  display: flex;
+  gap: 10px;
+}
+.btnroot button {
+  background-color: rgb(52, 51, 51);
+  padding: 5px 10px 5px 10px;
+  border-radius: 7px;
+}
+
+.addbtn button {
+  background-color: rgb(52, 51, 51);
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+.btnroot button:hover {
+  background-color: rgb(42, 41, 41);
+}
+.addbtn button:hover {
+  background-color: rgb(42, 41, 41);
+}
+.titleInput {
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid grey;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline: gray;
+  background-color: rgb(44, 44, 44);
+}

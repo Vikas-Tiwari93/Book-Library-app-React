@@ -1,0 +1,93 @@
+.spinner {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardRoot {
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 95vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.paginationRoot {
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 3px solid salmon;
+}
+
+.eachbook {
+  width: 220px;
+  padding: 5px;
+  border: 1px solid silver;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  transition: 0.2s ease-in-out;
+  background-color: rgb(61, 60, 60);
+  box-shadow: 1px -1px 1px 1px silver;
+  position: relative;
+}
+.eachbook:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.eachbook:hover .editbook {
+  display: block;
+}
+
+.pagesButton {
+  display: flex;
+  gap: 15px;
+}
+.pagesButton button {
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px 5px 10px;
+}
+.id,
+.title,
+.author,
+.language,
+.year {
+  font-weight: 700;
+  padding: 5px;
+  white-space: nowrap;
+}
+.id span,
+.title span,
+.author span,
+.language span,
+.year span {
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.editbook {
+  display: none;
+  right: 4px;
+  bottom: 4px;
+  position: absolute;
+  z-index: 100;
+  background-color: grey;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+.editbook:hover {
+  background-color: rgb(101, 100, 100);
+  border: 1px solid white;
+}

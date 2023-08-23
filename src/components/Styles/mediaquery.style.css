@@ -1,0 +1,21 @@
+@media only screen and (max-width: 850px) {
+  .filterRoot {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .btnroot {
+    flex-direction: column;
+  }
+  .cardRoot {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .pagesButton {
+    gap: 5px;
+    font-size: 11px;
+  }
+}
